@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DETAlthon 2K26 | Attendance System</title>
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP HEADER -->
+    <div class="top-header">
+        <img src="RAS logo.jpeg" class="logo circle">
+        <div class="top-text">
+            <h2>IEEE Robotics & Automation Society</h2>
+        </div>
+        <img src="sb logo.jpeg" class="logo circle">
+    </div>
+
+    <!-- MAIN CARD -->
+    <div class="card center">
+        <h1>DET<span>AI</span>THON 2K26</h1>
+        <p class="tagline">Money Heist × Halloween Attendance System</p>
+
+        <div class="buttons">
+            <button onclick="openQR()">📸 Scan QR Attendance</button>
+            <button onclick="openManual()">✍ Manual Attendance</button>
+            <button onclick="openAttended()">📊 Attended Students</button>
+            <button onclick="openAllStudents()">📋 Total Students List</button>
+        </div>
+    </div>
+
+    <!-- DETAILS SECTION -->
+    <div class="details">
+
+        <h3>WITH SINCERE REGARDS</h3>
+
+        <p class="name">Dr. P. DEEPALAKSHMI</p>
+        <p class="role">Dean, School of Computing</p>
+
+        <p class="name">Dr. R. RAJA SUBRAMANIAN</p>
+        <p class="role">HOD / CSE</p>
+        <p class="role">IEEE SB Counsellor & IEEE RAS Chapter Advisor</p>
+
+        <h3>CONTACT DETAILS</h3>
+
+        <p class="subhead">Faculty Incharges</p>
+        <p>Dr. M. RAJASEKARAN</p>
+        <p>Dr. N. SUBBULAKSHMI</p>
+        <p>Mrs. R. SYED ALI FATHIMA</p>
+
+        <p class="subhead">Student Coordinators</p>
+        <p>C VISHAL – +91 8590556670</p>
+        <p>N SABARI VASAN – +91 9345864424</p>
+        <p>CH SIVA MOWNY – +91 8885448275</p>
+        <p>GURU PRASANTH – +91 9704640862</p>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <p>Website Developed Team – Web Development, IEEE RAS</p>
+        <p>For any queries regarding website:</p>
+        <p>📞 9492076706 | ✉️ gmanoj4576@gmail.com</p>
+    </div>
+
+    <script>
+        function openQR() {
+            window.open("https://scanbot.io/qr-code-scanner-online/");
+        }
+        function openManual() {
+            window.open("https://docs.google.com/forms/d/e/1FAIpQLSfCrk_xYuyihsnNzrk8wLCaZ5TJZiGce1zbZnHIGSzCSxmn-A/viewform");
+        }
+        function openAttended() {
+            window.open("https://docs.google.com/spreadsheets/d/1QFcLrLseOw7y9XcvJ-DgeaR-5X-W7OcCvTPAjjBoonw/edit?gid=1003170004");
+        }
+        function openAllStudents() {
+            window.open("https://docs.google.com/spreadsheets/d/124q695i8KkLMYx5Hjc-A-JgzFHjJ57kXEDoy2yuyN6g/edit");
+        }
+    </script>
+
+</body>
+
+</html>
